@@ -1,0 +1,16 @@
+package com.company;
+
+import java.util.Scanner;
+import java.lang.System;
+import java.io.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+            Scanner input = new Scanner(System.in);
+            System.out.print("How was your day?");
+            String Day = input.nextLine();
+    }
+}
